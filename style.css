@@ -4,6 +4,7 @@ body {
 	font-family: sans-serif;
 	font-size: 16px;
 	line-height: 22px;
+	margin: 0;
 }
 a {
 	color: #FFE3E3;
@@ -77,4 +78,10 @@ div.central-content {
 }
 ul {
 	margin: 0;
+}
+#footer {
+	text-align: center;
+	margin-top: 2rem;
+	padding: 1rem;
+	background-color: #111111;
 }
