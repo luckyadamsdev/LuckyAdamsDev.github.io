@@ -6,6 +6,11 @@ body {
 	line-height: 22px;
 	margin: 0;
 }
+#bio-page-container {
+	background-image: url("images/banners/bio.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 a {
 	color: #FFE3E3;
 }
@@ -33,6 +38,8 @@ h1 {
 	line-height: 3rem;
 	color: #FFE3E3;
 	font-family: "Abril Fatface", serif;
+	margin-top: 0rem;
+	padding-top: 7rem;
 }
 h2 {
 	font-size: 4rem;
