@@ -146,6 +146,7 @@ ul {
 div.free-game-content {
 	display: flex;
 	gap: 1rem;
+	margin-top: 3rem;
 }
 #footer {
 	text-align: center;
