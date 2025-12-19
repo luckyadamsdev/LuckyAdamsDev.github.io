@@ -36,11 +36,13 @@ h1 {
 h2 {
 	font-size: 4rem;
 	line-height: 3rem;
+	margin-top: 1rem;
 	color: #FFE3E3;
 }
 h3 {
 	font-size: 2rem;
-	line-height: 1.5rem;
+	line-height: 1rem;
+	margin-top: 0;
 	color: #FFE3E3;
 }
 div.central-content {
@@ -59,6 +61,7 @@ div.central-content {
 .central-column-container .right-column h2 {
 	text-align: center;
 	font-size: 3rem;
+	margin-bottom: 1rem;
 }
 .central-column-container .right-column img {
 	width: 100%;
@@ -67,6 +70,7 @@ div.central-content {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0 20% 0 20%;
+	gap: 1rem;
 }
 #social-icon-links img {
 	width: 4rem;
@@ -78,6 +82,9 @@ div.central-content {
 }
 ul {
 	margin: 0;
+}
+#career-goals {
+	margin-top: 2rem;
 }
 #footer {
 	text-align: center;
