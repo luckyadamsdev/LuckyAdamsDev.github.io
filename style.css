@@ -1,7 +1,7 @@
 body {
 	background-color: #281B1D;
 	color: white;
-	font-family: sans-serif;
+	font-family: "Akatab", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	margin: 0;
@@ -32,18 +32,21 @@ h1 {
 	font-size: 10rem;
 	line-height: 3rem;
 	color: #FFE3E3;
+	font-family: "Abril Fatface", serif;
 }
 h2 {
 	font-size: 4rem;
 	line-height: 3rem;
 	margin-top: 1rem;
 	color: #FFE3E3;
+	font-family: "Abril Fatface", serif;
 }
 h3 {
 	font-size: 2rem;
 	line-height: 1rem;
 	margin-top: 0;
 	color: #FFE3E3;
+	font-family: "Abril Fatface", serif;
 }
 div.central-content {
 	margin: 0 20% 0 20%;
