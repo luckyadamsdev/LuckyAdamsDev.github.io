@@ -25,6 +25,7 @@ a {
 	color: #FFE3E3;
 }
 a.source-link {
+	margin-left: 1rem;
 	margin-top: -0.5rem;
 	float: right;
 }
@@ -76,6 +77,13 @@ h3.commercial-header {
 	margin-top: 1rem;
 	font-weight: 900;
 }
+h3.free-header {
+	font-family: "Akatab", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1rem;
+	margin-top: 1rem;
+	font-weight: 900;
+}
 h2.center {
 	text-align: center;
 }
@@ -104,7 +112,7 @@ div.central-content {
 #dev-page-container .central-column-container .right-column {
 	width: 50%;
 }
-#dev-page-container video {
+.commercial-game-video {
 	width: 100%;
 }
 .central-column-container .right-column h2 {
@@ -134,6 +142,10 @@ ul {
 }
 #career-goals {
 	margin-top: 2rem;
+}
+div.free-game-content {
+	display: flex;
+	gap: 1rem;
 }
 #footer {
 	text-align: center;
