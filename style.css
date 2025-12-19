@@ -24,6 +24,10 @@ body {
 a {
 	color: #FFE3E3;
 }
+a.source-link {
+	margin-top: -0.5rem;
+	float: right;
+}
 .navigation-header {
 	display: flex;
 	justify-content: space-evenly;
@@ -75,8 +79,11 @@ h3.commercial-header {
 h2.center {
 	text-align: center;
 }
-h2.top-buffer {
+h2.top-buffer-large {
 	margin-top: 10rem;
+}
+h2.top-buffer {
+	margin-top: 3rem;
 }
 div.central-content {
 	margin: 0 20% 0 20%;
