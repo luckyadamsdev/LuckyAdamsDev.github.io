@@ -156,10 +156,10 @@ div#other-projects {
 div#other-projects iframe,img {
 	filter: drop-shadow(0.5rem 0.5rem 1rem black);
 }
-div#other-projects iframe {
+div#other-projects iframe,#ui-project-info {
 	grid-column: 1;
 }
-div#other-projects img {
+div#other-projects img,#portfolio-project-info {
 	grid-column: 2;
 }
 #other-projects iframe,img {
