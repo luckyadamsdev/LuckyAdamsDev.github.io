@@ -91,7 +91,7 @@ h2.top-buffer-large {
 	margin-top: 10rem;
 }
 h2.top-buffer {
-	margin-top: 3rem;
+	margin-top: 5rem;
 }
 div.central-content {
 	margin: 0 20% 0 20%;
@@ -147,6 +147,14 @@ div.free-game-content {
 	display: flex;
 	gap: 1rem;
 	margin-top: 3rem;
+}
+div#other-projects {
+	display:flex;
+	gap: 1rem;
+}
+div#other-projects iframe,img {
+	width: 50%;
+	filter: drop-shadow(8px 8px 10px black);
 }
 #footer {
 	text-align: center;
