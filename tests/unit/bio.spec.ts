@@ -30,7 +30,7 @@ test.describe('bio', () => {
 		});
 	});
 
-	test.describe.only('hyperlinks', () => {
+	test.describe('hyperlinks', () => {
 		test('winnipeg game collective working', async ({ page }) => {
 			await page.goto(siteUrl);
 			await page.getByRole('link', { name: 'Winnipeg Game Collective' }).click();
