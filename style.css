@@ -173,7 +173,7 @@ div#other-projects img,#portfolio-project-info {
 p.game-description {
 	margin-top: -0.5rem;
 }
-div#animated-video-info {
+div.centered-art-info {
 	width: 60%;
 	text-align: center;
 	margin: auto;
@@ -185,6 +185,16 @@ div.sprite-animation-container {
 	display: flex;
 	justify-content: space-between;
 	column-gap: 1rem;
+}
+#turntable-posing-and-wip {
+	margin: 2rem auto auto auto;
+}
+#turntable-posing-and-wip img {
+	width: 42%;
+}
+#turntable-posing-and-wip video {
+	width: 56%;
+	float: right;
 }
 #footer {
 	text-align: center;
