@@ -196,6 +196,20 @@ div.sprite-animation-container {
 	width: 56%;
 	float: right;
 }
+#dr-shelley-sprite-wip {
+	display: flex;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+#dr-shelley-sprite-wip > div {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: space-between;
+}
+#dr-shelley-sprite-wip > img {
+	width: 50%;
+}
 #footer {
 	text-align: center;
 	margin-top: 2rem;
