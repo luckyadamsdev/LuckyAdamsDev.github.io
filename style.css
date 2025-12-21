@@ -93,6 +93,9 @@ h2.center {
 .top-buffer {
 	margin-top: 5rem;
 }
+.top-buffer-small {
+	margin-top: 1rem;
+}
 div.central-content {
 	margin: 0 20% 0 20%;
 }
@@ -111,6 +114,12 @@ div.central-content {
 }
 #dev-page-container .central-column-container .right-column {
 	width: 50%;
+}
+#art-page-container #graphic-design .central-column-container .left-column {
+	width: 60%;
+}
+#art-page-container #graphic-design .central-column-container .right-column {
+	width: 40%;
 }
 .commercial-game-video, .large-video {
 	width: 100%;
@@ -156,6 +165,9 @@ div#other-projects {
 div#other-projects iframe,img {
 	filter: drop-shadow(0.5rem 0.5rem 1rem black);
 }
+#graphic-design img {
+	filter: none;
+}
 div#other-projects iframe,#ui-project-info {
 	grid-column: 1;
 }
@@ -181,12 +193,12 @@ div.centered-art-info {
 div.environment-image-column {
 	width: 70%;
 }
-div.environment-info-column {
+div.narrow-info-column {
 	width: 30%;
 	text-align: center;
 	margin: auto;
 }
-div.environment-info-column-alt {
+div.narrow-info-column-alt {
 	width: 30%;
 }
 div.sprite-animation-container {
