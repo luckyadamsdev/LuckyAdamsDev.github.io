@@ -178,6 +178,17 @@ div.centered-art-info {
 	text-align: center;
 	margin: auto;
 }
+div.environment-image-column {
+	width: 70%;
+}
+div.environment-info-column {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+div.environment-info-column-alt {
+	width: 30%;
+}
 div.sprite-animation-container {
 	width: 120%;
 	aspect-ratio: 4/1;
@@ -209,6 +220,9 @@ div.sprite-animation-container {
 }
 #dr-shelley-sprite-wip > img {
 	width: 50%;
+}
+div.environment-image-container {
+	width: 200%;
 }
 #footer {
 	text-align: center;
