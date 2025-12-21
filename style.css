@@ -112,7 +112,7 @@ div.central-content {
 #dev-page-container .central-column-container .right-column {
 	width: 50%;
 }
-.commercial-game-video {
+.commercial-game-video, .large-video {
 	width: 100%;
 }
 .central-column-container .right-column h2 {
@@ -172,6 +172,11 @@ div#other-projects img,#portfolio-project-info {
 }
 p.game-description {
 	margin-top: -0.5rem;
+}
+div#animated-video-info {
+	width: 60%;
+	text-align: center;
+	margin: auto;
 }
 #footer {
 	text-align: center;
