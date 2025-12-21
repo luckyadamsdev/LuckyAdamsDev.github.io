@@ -29,7 +29,7 @@ test.describe('social media links', () => {
 	});
 });
 
-test.only('bio images load', async ({ page }) => {
+test('bio images load', async ({ page }) => {
 	await page.goto(siteUrl);
 	await expect(page).toHaveScreenshot('bio.png');
 });
