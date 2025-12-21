@@ -1,2 +1,2 @@
-Click all 4 social media image links. Confirm the website loads. Confirm the logo image icon loads.
+Confirm the social media image icons load.
 Confirm my selfie image loads
