@@ -2,9 +2,27 @@ body {
 	background-color: #281B1D;
 	color: white;
 	font-family: "Akatab", sans-serif;
-	font-size: 16px;
-	line-height: 22px;
 	margin: 0;
+}
+@media (min-width: 1000px) {
+	body {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+@media (max-width: 1000px) {
+	@media (min-width: 600px) {
+		body {
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	body {
+		font-size: 12px;
+		line-height: 16px;
+	}
 }
 .sub-section-buffer {
 	margin-top: -100px;
@@ -31,6 +49,7 @@ a {
 a.source-link {
 	margin-left: 1rem;
 	margin-top: -0.5rem;
+	line-height: 1.5rem;
 	float: right;
 }
 .navigation-header {
@@ -135,17 +154,36 @@ a.source-link {
 .expandable-page-nav.art-nav:hover {
 	animation-name: expand-art;
 }
+@media (min-width: 1060px) {
+	h1 {
+		font-size: 10rem;
+		padding-top: 7rem;
+	}
+}
+@media (max-width: 1060px) {
+	h1 {
+		font-size: 15vw;
+		padding-top: 10vw;
+	}
+}
 h1 {
 	text-align: center;
-	font-size: 10rem;
 	line-height: 3rem;
 	color: white;
 	font-family: "Abril Fatface", serif;
 	margin-top: 0rem;
-	padding-top: 7rem;
+}
+@media (min-width: 630px) {
+	h2 {
+		font-size: 4rem;
+	}
+}
+@media (max-width: 630px) {
+	h2 {
+		font-size: 10vw;
+	}
 }
 h2 {
-	font-size: 4rem;
 	line-height: 3rem;
 	margin-top: 1rem;
 	color: #FFE3E3;
@@ -160,17 +198,46 @@ h3 {
 }
 h3.commercial-header {
 	font-family: "Akatab", sans-serif;
-	font-size: 2.5rem;
 	line-height: 2rem;
 	margin-top: 1rem;
 	font-weight: 900;
 }
 h3.free-header {
 	font-family: "Akatab", sans-serif;
-	font-size: 1.5rem;
 	line-height: 1rem;
 	margin-top: 1rem;
 	font-weight: 900;
+}
+@media (min-width: 1400px) {
+	h3.free-header {
+		font-size: 1.5rem;
+	}
+	h3.commercial-header {
+		font-size: 2.5rem;
+	}
+}
+@media (max-width: 1400px) {
+	h3.free-header {
+		font-size: 1rem;
+	}
+	@media (min-width: 400px) {
+		h3.commercial-header {
+			font-size: 2rem;
+		}
+	}
+}
+@media (max-width: 400px) {
+	@media (min-width: 250px) {
+		h3.commercial-header {
+			font-size: 6vw;
+		}
+	}
+}
+@media (max-width: 250px) {
+	h3.commercial-header {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
 }
 h2.center {
 	text-align: center;
@@ -187,8 +254,15 @@ h2.center {
 .top-buffer-small-medium {
 	margin-top: 2rem;
 }
-div.central-content {
-	margin: 0 20% 0 20%;
+@media (max-width: 1000px) {
+	div.central-content {
+		margin: 0 1rem 0 1rem;
+	}
+}
+@media (min-width: 1000px) {
+	div.central-content {
+		margin: 0 20% 0 20%;
+	}
 }
 .central-column-container {
 	display: flex;
@@ -215,9 +289,25 @@ div.central-content {
 .commercial-game-video, .large-video {
 	width: 100%;
 }
+@media (min-width: 1400px) {
+	.central-column-container .right-column h2 {
+		font-size: 3rem;
+	}
+}
+@media (max-width: 1400px) {
+	@media (min-width: 1000px) {
+		.central-column-container .right-column h2 {
+			font-size: 3.5vw;
+		}
+	}
+	@media (max-width: 1000px) {
+		.central-column-container .right-column h2 {
+			font-size: 5vw;
+		}
+	}
+}
 .central-column-container .right-column h2 {
 	text-align: center;
-	font-size: 3rem;
 	margin-bottom: 1rem;
 }
 .central-column-container .right-column img {
@@ -225,14 +315,28 @@ div.central-content {
 }
 #social-icon-links {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin: 0 20% 0 20%;
-	gap: 1rem;
+	gap: 1.5vw;
 }
 #social-icon-links img {
-	width: 4rem;
-	height: 4rem;
 	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+@media (min-width: 600px) {
+	#social-icon-links img {
+		width: 4rem;
+		height: 4rem;
+	}
+}
+@media (max-width: 600px) {
+	#social-icon-links img {
+		width: 10vw;
+		height: 10vw;
+	}
+	#selfie {
+		margin-top: 7rem;
+	}
 }
 #selfie {
 	border-radius: 7%;
@@ -247,6 +351,33 @@ div.free-game-content {
 	display: flex;
 	gap: 1rem;
 	margin-top: 3rem;
+}
+@media (max-width: 1400px) {
+	video.free-game-video {
+		width: 30vw;
+	}
+}
+@media (max-width: 1000px) {
+	@media (min-width: 800px) {
+		video.free-game-video {
+			width: 40vw;
+		}
+	}
+}
+@media (max-width: 700px) {
+	@media (min-width: 400px) {
+		video.free-game-video {
+			width: 45vw;
+		}
+	}
+}
+@media (max-width: 400px) {
+	video.free-game-video {
+		width: 100%;
+	}
+	div.free-game-content {
+		flex-direction: column;
+	}
 }
 div#other-projects {
 	display: inline-grid;
@@ -286,8 +417,17 @@ div#other-projects img,#portfolio-project-info {
 p.game-description {
 	margin-top: -0.5rem;
 }
+@media (min-width: 600px) {
+	div.centered-art-info {
+		width: 60%;
+	}
+}
+@media (max-width: 600px) {
+	div.centered-art-info {
+		width: 80%;
+	}
+}
 div.centered-art-info {
-	width: 60%;
 	text-align: center;
 	margin: auto;
 }
@@ -303,12 +443,21 @@ div.narrow-info-column-alt {
 	width: 30%;
 }
 div.sprite-animation-container {
-	width: 120%;
 	aspect-ratio: 4/1;
-	margin-left: -10%;
 	display: flex;
 	justify-content: space-between;
 	column-gap: 1rem;
+}
+@media (min-width: 1000px) {
+	div.sprite-animation-container {
+		width: 120%;
+		margin-left: -10%;
+	}
+}
+@media (max-width: 1000px) {
+	div.sprite-animation-container {
+		width: 100%;
+	}
 }
 #turntable-posing-and-wip {
 	margin: 2rem auto auto auto;
