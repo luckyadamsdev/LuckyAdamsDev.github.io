@@ -6,6 +6,10 @@ body {
 	line-height: 22px;
 	margin: 0;
 }
+.sub-section-buffer {
+	margin-top: -100px;
+	padding-top: 100px;
+}
 #bio-page-container {
 	background-image: url("images/banners/bio.png");
 	background-repeat: no-repeat;
@@ -245,9 +249,15 @@ div#other-projects {
 	display: inline-grid;
 	grid-auto-columns: 50%;
 	gap: 1rem;
+	margin-top: -200px;
+	padding-top: 200px;
 }
 div#other-projects iframe,img {
 	filter: drop-shadow(0.5rem 0.5rem 1rem black);
+}
+#free-web-games,#graphic-design {
+	margin-top: -20px;
+	padding-top: 20px;
 }
 #graphic-design img {
 	filter: none;
