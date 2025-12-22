@@ -34,6 +34,10 @@ a.source-link {
 	justify-content: space-evenly;
 	background-color: #3B0009;
 	padding: 2rem 20% 2rem 20%;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 2;
 }
 .navigation-header a {
 	color: white;

@@ -10,6 +10,9 @@ test.describe('dev', () => {
 		for(var i: number = 0 ; i < 1000; i += 100) {
 			await page.mouse.wheel(0, i);
 		}
-		await expect(page).toHaveScreenshot('dev.png', { animations: 'disabled', fullPage: true });
+		await expect(page).toHaveScreenshot('dev.png', {
+			animations: 'disabled', fullPage: true,
+			mask: [page.locator('iframe')]
+		});
 	});
 });
