@@ -176,15 +176,16 @@ h1 {
 @media (min-width: 630px) {
 	h2 {
 		font-size: 4rem;
+		line-height: 3rem;
 	}
 }
 @media (max-width: 630px) {
 	h2 {
 		font-size: 10vw;
+		line-height: 8vw;
 	}
 }
 h2 {
-	line-height: 3rem;
 	margin-top: 1rem;
 	color: #FFE3E3;
 	font-family: "Abril Fatface", serif;
@@ -286,6 +287,18 @@ h2.center {
 #art-page-container #graphic-design .central-column-container .right-column {
 	width: 40%;
 }
+@media (max-width: 420px) {
+	#education .central-column-container {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	#education  .central-column-container .left-column {
+		width: 100%;
+	}
+	#education .central-column-container .right-column {
+		width: 100%;
+	}
+}
 .commercial-game-video, .large-video {
 	width: 100%;
 }
@@ -377,6 +390,9 @@ div.free-game-content {
 	}
 	div.free-game-content {
 		flex-direction: column;
+	}
+	div.free-game-content.column-reverse-flex {
+		flex-direction: column-reverse;
 	}
 }
 div#other-projects {
