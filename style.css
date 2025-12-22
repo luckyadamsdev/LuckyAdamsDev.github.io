@@ -184,6 +184,9 @@ h2.center {
 .top-buffer-small {
 	margin-top: 1rem;
 }
+.top-buffer-small-medium {
+	margin-top: 2rem;
+}
 div.central-content {
 	margin: 0 20% 0 20%;
 }
@@ -258,6 +261,10 @@ div#other-projects iframe,img {
 #free-web-games,#graphic-design {
 	margin-top: -20px;
 	padding-top: 20px;
+}
+#animated-videos,#commercial-games {
+	margin-top: -68px;
+	padding-top: 68px;
 }
 #graphic-design img {
 	filter: none;
