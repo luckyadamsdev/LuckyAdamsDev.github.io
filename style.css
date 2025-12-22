@@ -10,20 +10,6 @@ body {
 		line-height: 22px;
 	}
 }
-@media (max-width: 1000px) {
-	@media (min-width: 600px) {
-		body {
-			font-size: 14px;
-			line-height: 19px;
-		}
-	}
-}
-@media (max-width: 600px) {
-	body {
-		font-size: 12px;
-		line-height: 16px;
-	}
-}
 .sub-section-buffer {
 	margin-top: -100px;
 	padding-top: 100px;
@@ -388,6 +374,7 @@ ul {
 }
 div.free-game-content {
 	display: flex;
+	align-items: center;
 	gap: 1rem;
 	margin-top: 3rem;
 }
@@ -496,9 +483,19 @@ div.sprite-animation-container {
 		margin-left: -10%;
 	}
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) and (min-width: 300px) {
 	div.sprite-animation-container {
-		width: 100%;
+		flex-wrap: wrap;
+		row-gap: 25%;
+	}
+	div.sprite-animation-container video {
+		width: 47%;
+	}
+}
+@media (max-width: 300px) {
+	div.sprite-animation-container {
+		flex-wrap: wrap;
+		row-gap: 10%;
 	}
 }
 #turntable-posing-and-wip {
