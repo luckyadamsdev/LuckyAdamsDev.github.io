@@ -56,17 +56,39 @@ a.source-link {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #3B0009;
-	padding: 2rem 20% 2rem 20%;
 	position: sticky;
 	position: -webkit-sticky;
 	top: 0;
 	z-index: 2;
 	max-height: 20px;
 }
+@media (min-width: 1000px) {
+	.navigation-header {
+		padding: 2rem 20% 2rem 20%;
+	}
+	.navigation-header a {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 1000px) {
+	.navigation-header {
+		padding: 3vw 10vw 3vw 10vw;
+		gap: 10%;
+	}
+	@media (min-width: 500px) {
+		.navigation-header a {
+			font-size: 4vw;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.navigation-header a {
+		font-size: 1rem;
+	}
+}
 .navigation-header a {
 	color: white;
 	text-decoration: none;
-	font-size: 2rem;
 }
 .navigation-header a:hover {
 	text-decoration: underline;
@@ -90,6 +112,10 @@ a.source-link {
 	100% {
 		height: 200px;
 	}
+}
+.bio-nav {
+	width: 50px;
+	text-align: center;
 }
 .expandable-page-nav :nth-child(2) {
 	display: none;
