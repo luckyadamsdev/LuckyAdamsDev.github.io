@@ -31,7 +31,7 @@ a {
 a.source-link {
 	margin-left: 1rem;
 	margin-top: -0.5rem;
-	line-height: 1.5rem;
+	line-height: 2rem;
 	float: right;
 }
 .navigation-header {
@@ -484,16 +484,6 @@ div.free-game-content {
 		flex-direction: column-reverse;
 	}
 }
-div#other-projects {
-	display: inline-grid;
-	grid-auto-columns: 50%;
-	gap: 1rem;
-	margin-top: -200px;
-	padding-top: 200px;
-}
-div#other-projects iframe,img {
-	filter: drop-shadow(0.5rem 0.5rem 1rem black);
-}
 #free-web-games,#graphic-design {
 	margin-top: -20px;
 	padding-top: 20px;
@@ -505,19 +495,31 @@ div#other-projects iframe,img {
 #graphic-design img {
 	filter: none;
 }
-div#other-projects iframe,#ui-project-info {
-	grid-column: 1;
+div#other-projects {
+	display: flex;
+	margin-top: -200px;
+	padding-top: 200px;
 }
-div#other-projects img,#portfolio-project-info {
-	grid-column: 2;
-}
-#other-projects iframe,img {
+div#other-projects iframe,img {
+	filter: drop-shadow(0.5rem 0.5rem 1rem black);
 	width: 100%;
-	display: inline;
 }
-#other-projects iframe {
-	width: 100%;
-	height: 100%;
+@media (min-width: 401px) {
+	div#other-projects {
+		gap: 1rem;
+	}
+	#ui-project-info {
+		width: 50%;
+	}
+	#portfolio-project-info {
+		width: 50%;
+	}
+}
+@media (max-width: 400px) {
+	div#other-projects {
+		flex-direction: column;
+		gap: 3rem;
+	}
 }
 p.game-description {
 	margin-top: -0.5rem;
