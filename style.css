@@ -336,10 +336,39 @@ h2.center {
 .central-column-container .right-column img {
 	width: 100%;
 }
+@media (min-width: 1566px) {
+	#social-icon-links {
+		margin: -5vw 40% 0 0;
+	}
+}
+@media (min-width: 1400px) and (max-width: 1566px) {
+	#social-icon-links {
+		margin: 0 20% 0 20%;
+	}
+}
+@media (min-width: 1320px) and (max-width: 1400px) {
+	#social-icon-links {
+		margin: -5vw 0 0 60%;
+	}
+}
+@media (min-width: 1000px) and (max-width: 1320px) {
+	#social-icon-links {
+		margin: -7vw 0 0 60%;
+	}
+}
+@media (min-width: 800px) and (max-width: 870px) {
+	#social-icon-links {
+		margin: -8vw 0 0 60%;
+	}
+}
+@media (max-width: 800px) {
+	#social-icon-links {
+		margin: -12vw 0 0 60%;
+	}
+}
 #social-icon-links {
 	display: flex;
 	justify-content: center;
-	margin: 0 20% 0 20%;
 	gap: 2.5vw;
 }
 #social-icon-links img {
