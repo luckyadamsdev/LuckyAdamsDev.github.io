@@ -545,9 +545,6 @@ div.environment-image-column {
 div.narrow-info-column {
 	width: 30%;
 }
-div.narrow-info-column-alt {
-	width: 30%;
-}
 div.sprite-animation-container {
 	aspect-ratio: 4/1;
 	display: flex;
