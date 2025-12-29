@@ -544,7 +544,6 @@ div.environment-image-column {
 }
 div.narrow-info-column {
 	width: 30%;
-	margin: auto;
 }
 div.narrow-info-column-alt {
 	width: 30%;
@@ -559,6 +558,9 @@ div.sprite-animation-container {
 	div.sprite-animation-container {
 		width: 120%;
 		margin-left: -10%;
+	}
+	div.sprite-animation-info {
+		width: 80%;
 	}
 }
 @media (max-width: 600px) and (min-width: 300px) {
