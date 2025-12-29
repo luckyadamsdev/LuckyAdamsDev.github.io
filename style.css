@@ -294,13 +294,19 @@ h2.center {
 	}
 	#main-bio-container .selfie-container {
 		width: 20%;
-		margin-right: 10%;
+		margin-right: 15%;
 	}
 	#main-bio-container .selfie-container h2 {
 		display: none;
 	}
 }
 @media (max-width: 250px) {
+	#main-bio-container .text-container h2 {
+		font-size: 11vw;
+	}
+	h3 {
+		font-size: 11vw;
+	}
 	#main-bio-container .selfie-container {
 		display: none;
 	}
@@ -499,6 +505,9 @@ div#other-projects {
 	display: flex;
 	margin-top: -200px;
 	padding-top: 200px;
+}
+div#other-projects iframe {
+	aspect-ratio: 2542/1695;/* The exact dimensions of the portfolio image */
 }
 div#other-projects iframe,img {
 	filter: drop-shadow(0.5rem 0.5rem 1rem black);
