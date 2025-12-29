@@ -25,6 +25,9 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+p {
+	text-align: justify;
+}
 a {
 	color: #FFE3E3;
 }
@@ -533,18 +536,7 @@ div#other-projects iframe,img {
 p.game-description {
 	margin-top: -0.5rem;
 }
-@media (min-width: 600px) {
-	div.centered-art-info {
-		width: 60%;
-	}
-}
-@media (max-width: 600px) {
-	div.centered-art-info {
-		width: 80%;
-	}
-}
 div.centered-art-info {
-	text-align: center;
 	margin: auto;
 }
 div.environment-image-column {
@@ -552,7 +544,6 @@ div.environment-image-column {
 }
 div.narrow-info-column {
 	width: 30%;
-	text-align: center;
 	margin: auto;
 }
 div.narrow-info-column-alt {
@@ -608,6 +599,17 @@ div.sprite-animation-container {
 }
 #dr-shelley-sprite-wip > img {
 	width: 50%;
+}
+@media (max-width: 600px) {
+	#dr-shelley-sprite-wip {
+		flex-direction: column;
+	}
+	#dr-shelley-sprite-wip > div {
+		width: 100%;
+	}
+	#dr-shelley-sprite-wip > img {
+		width: 100%;
+	}
 }
 div.environment-image-container {
 	width: 200%;
