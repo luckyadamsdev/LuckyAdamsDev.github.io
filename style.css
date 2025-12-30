@@ -6,10 +6,6 @@ body {
 	font-size: 16px;
 	line-height: 22px;
 }
-.sub-section-buffer {
-	margin-top: -100px;
-	padding-top: 100px;
-}
 #bio-page-container {
 	background-image: url("images/banners/bio.png");
 	background-repeat: no-repeat;
@@ -24,6 +20,9 @@ body {
 	background-image: url("images/banners/art.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+#commercial-games, #free-web-games, #other-projects, #characters, #environments, #animated-videos, #graphic-design {
+	scroll-margin-top: 100px;
 }
 p {
 	text-align: justify;
@@ -362,11 +361,29 @@ h2.center {
 #dev-page-container .central-column-container .right-column {
 	width: 50%;
 }
-#art-page-container #graphic-design .central-column-container .left-column {
-	width: 60%;
+@media (min-width: 700px) {
+	.art-info-image-combo-container {
+		display: flex;
+		gap: 2rem;
+	}
+	#art-page-container #graphic-design .art-info-image-combo-container .left-column {
+		width: 60%;
+	}
+	#art-page-container #graphic-design .art-info-image-combo-container .right-column {
+		width: 40%;
+	}
+	img {
+		filter: drop-shadow(0.5rem 0.5rem 1rem black);
+	}
 }
-#art-page-container #graphic-design .central-column-container .right-column {
-	width: 40%;
+@media (max-width: 699px) {
+	.art-info-image-combo-container.reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.art-info-image-combo-container p {
+		margin: 0 0 1.5rem 0;
+	}
 }
 @media (max-width: 500px) {
 	#education .central-column-container {
@@ -493,26 +510,19 @@ div.free-game-content {
 		flex-direction: column-reverse;
 	}
 }
-#free-web-games,#graphic-design {
-	margin-top: -20px;
-	padding-top: 20px;
-}
-#animated-videos,#commercial-games {
-	margin-top: -68px;
-	padding-top: 68px;
-}
 #graphic-design img {
 	filter: none;
 }
 div#other-projects {
 	display: flex;
-	margin-top: -200px;
-	padding-top: 200px;
 }
 div#other-projects iframe {
 	aspect-ratio: 2542/1695;/* The exact dimensions of the portfolio image */
 }
-div#other-projects iframe,img {
+img {
+	width: 100%;
+}
+div#other-projects iframe {
 	filter: drop-shadow(0.5rem 0.5rem 1rem black);
 	width: 100%;
 }
@@ -539,11 +549,13 @@ p.game-description {
 div.centered-art-info {
 	margin: auto;
 }
-div.environment-image-column {
-	width: 70%;
-}
-div.narrow-info-column {
-	width: 30%;
+@media (min-width: 700px){
+	div.narrow-info-column {
+		width: 30%;
+	}
+	div.environment-image-column {
+		width: 70%;
+	}
 }
 div.sprite-animation-container {
 	aspect-ratio: 4/1;
