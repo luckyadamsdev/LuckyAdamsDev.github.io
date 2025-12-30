@@ -1,4 +1,5 @@
 {
+  "license": "UNLICENSED",
   "devDependencies": {
     "@types/node": "^25.0.3",
     "playwright": "^1.57.0"
