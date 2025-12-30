@@ -1,8 +1,6 @@
 {
-  "dependencies": {
-    "playwright": "^1.57.0"
-  },
   "devDependencies": {
-    "@types/node": "^25.0.3"
+    "@types/node": "^25.0.3",
+    "playwright": "^1.57.0"
   }
 }
