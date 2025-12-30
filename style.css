@@ -436,12 +436,17 @@ h2.center {
 .commercial-game-video, .large-video {
 	width: 100%;
 }
-@media (min-width: 1580px) {
+#social-icon-links {
+	display: flex;
+	justify-content: center;
+	gap: 2.5vw;
+}
+@media (min-width: 1680px) {
 	#social-icon-links {
 		margin: -5vw 40% 0 0;
 	}
 }
-@media (min-width: 1400px) and (max-width: 1580px) {
+@media (min-width: 1400px) and (max-width: 1680px) {
 	#social-icon-links {
 		margin: 0 20% 0 20%;
 	}
@@ -454,6 +459,7 @@ h2.center {
 @media (min-width: 1000px) and (max-width: 1320px) {
 	#social-icon-links {
 		margin: -7vw 0 0 60%;
+		gap: 1.5vw;
 	}
 }
 @media (min-width: 800px) and (max-width: 870px) {
@@ -465,11 +471,6 @@ h2.center {
 	#social-icon-links {
 		margin: -12vw 0 0 60%;
 	}
-}
-#social-icon-links {
-	display: flex;
-	justify-content: center;
-	gap: 2.5vw;
 }
 #social-icon-links img {
 	margin-top: 1rem;
