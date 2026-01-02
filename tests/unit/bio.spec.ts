@@ -3,7 +3,7 @@ import path from 'path';
 
 var siteUrl: string = 'file://' + path.resolve('index.html');
 
-test.describe('bio', () => {
+test.describe('bio unit', () => {
 	test.describe('social media links', () => {
 		test('itch working', async ({ page }) => {
 			await page.goto(siteUrl);
@@ -61,10 +61,5 @@ test.describe('bio', () => {
 			await page.getByRole('link', { name: 'Employees Scholarship' }).click();
 			await expect(page).toHaveURL(/umanitoba.ca/)
 		});
-	});
-
-	test('images load', async ({ page }) => {
-		await page.goto(siteUrl);
-		await expect(page).toHaveScreenshot('bio.png');
 	});
 });
