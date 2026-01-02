@@ -343,10 +343,10 @@ h2.center {
 }
 @media (min-width: 1000px) and (max-width: 1400px) {
 	#main-bio-container .selfie-container h2 {
-		font-size: 3.5vw;
+		font-size: 3rem;
 	}
 }
-@media (max-width: 1000px) {
+@media (max-width: 999px) {
 	#main-bio-container .selfie-container h2 {
 		font-size: 5vw;
 	}
@@ -428,25 +428,15 @@ h2.center {
 	justify-content: center;
 	gap: 2.5vw;
 }
-@media (min-width: 1680px) {
+@media (min-width: 1301px) {
 	#social-icon-links {
-		margin: -5vw 40% 0 0;
+		margin: -4rem 40% 0 0;
+		gap: 4rem;
 	}
 }
-@media (min-width: 1400px) and (max-width: 1680px) {
+@media (min-width: 870px) and (max-width: 1300px) {
 	#social-icon-links {
 		margin: 0 20% 0 20%;
-	}
-}
-@media (min-width: 1320px) and (max-width: 1400px) {
-	#social-icon-links {
-		margin: -5vw 0 0 60%;
-	}
-}
-@media (min-width: 1000px) and (max-width: 1320px) {
-	#social-icon-links {
-		margin: -7vw 0 0 60%;
-		gap: 1.5vw;
 	}
 }
 @media (min-width: 800px) and (max-width: 870px) {
