@@ -8,7 +8,7 @@ Visit the website by following this link: https://luckyadamsdev.github.io
 
 ## Getting Started
 
-In any browser, open the [index.html](index.html) file to navigate to the website locally. You may find that the one embedded YouTube video does not load locally, which is normal.
+In any browser, open the [index.html](index.html) file to navigate to the website locally. You may find that the one embedded YouTube video does not load locally, that is normal.
 
 To be setup for running the tests, use [yarn](https://yarnpkg.com/) and run the following command:
 ```
