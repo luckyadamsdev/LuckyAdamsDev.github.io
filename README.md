@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a static website that shows off my work, both technical and artistic. The design and development were done completely by me, Lucky Adams. This is a static website hosted by GitHub.
+This is a static website that shows off my work, both technical and artistic. Most of the work is related to video games. The design and development were done completely by me, Lucky Adams. This is a static website hosted by GitHub.
 
 Visit the website by following this link: https://luckyadamsdev.github.io
 
