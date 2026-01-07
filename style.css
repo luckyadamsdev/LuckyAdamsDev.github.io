@@ -597,6 +597,9 @@ div.sprite-animation-container {
 		width: 80%;
 	}
 }
+div.sprite-animation-container video {
+	width: 23%;
+}
 @media (max-width: 600px) and (min-width: 300px) {
 	div.sprite-animation-container {
 		flex-wrap: wrap;
