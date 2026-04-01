@@ -48,7 +48,7 @@ test.describe('bio unit', () => {
 		});
 		test('rrc working', async ({ page }) => {
 			await page.goto(siteUrl);
-			await page.getByRole('link', { name: 'Red River College Polytechnic' }).click();
+			await page.getByRole('link', { name: 'Red River College Polytech' }).click();
 			await expect(page).toHaveURL(/rrc.ca/)
 		});
 		test('umanitoba working', async ({ page }) => {
